@@ -5,6 +5,7 @@ on:
     paths:
       - '**/*.md'
     types: [opened, synchronize, reopened]
+  workflow_dispatch:
 
 jobs:
   spell-check:
